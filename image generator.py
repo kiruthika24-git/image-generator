@@ -1,20 +1,19 @@
 import streamlit as st
 from diffusers import DiffusionPipeline
-import torch
 
 st.title("🎨 AI Image Generator")
 
 prompt = st.text_input(
     "Enter your prompt:",
-    "A cute cat sitting in a garden"
+    "A cute cat sitting in a beautiful garden"
 )
 
 if st.button("Generate Image"):
+
     with st.spinner("Generating image..."):
 
         pipe = DiffusionPipeline.from_pretrained(
-            "stable-diffusion-v1-5/stable-diffusion-v1-5",
-            torch_dtype=torch.float32
+            "stabilityai/stable-diffusion-2-1-base"
         )
 
         image = pipe(prompt).images[0]
