@@ -22,9 +22,9 @@ Image-Generator/ │ ├── imagegenerator.py ├── requirements.txt └�
 Clone the repository git clone (https://github.com/kiruthika24-git/image-generator/blob/main/image%20generator.py)
 
 Install dependencies pip install -r requirements.txt
-
 Run the application streamlit run app.py
 
+streamli link:http://localhost:8501/
 
 
 🚀 Usage
