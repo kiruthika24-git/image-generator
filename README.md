@@ -18,7 +18,7 @@ Diffusion
 Image-Generator/ │ ├── imagegenerator.py ├── requirements.txt └── README.md4
 
 📦 Installation
-Clone the repository git clone (my gitup)
+Clone the repository git clone (https://github.com/kiruthika24-git/image-generator/blob/main/image%20generator.py)
 Install dependencies pip install -r requirements.txt
 Run the application streamlit run app.py
 
