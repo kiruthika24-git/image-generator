@@ -38,6 +38,6 @@ Example Prompt:
 a lotus in water
 
 🤖 Model
-This project uses the Hugging Face model: stabilityai/stable-diffusion-2-1-base
+This project uses the Hugging Face model: runwayml/stable-diffusion-v1-5
 
 
