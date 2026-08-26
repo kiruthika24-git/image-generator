@@ -13,7 +13,7 @@ if st.button("Generate Image"):
     with st.spinner("Generating image..."):
 
         pipe = DiffusionPipeline.from_pretrained(
-            "stabilityai/stable-diffusion-2-1-base"
+            "runwayml/stable-diffusion-v1-5"
         )
 
         image = pipe(prompt).images[0]
